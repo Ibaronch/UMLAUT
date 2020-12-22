@@ -46,28 +46,28 @@ NOTES:
    using a "leave one out" strategy, wehere the data point left
    out is properly the data point tested.
 
-; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-; INPUT PARAMETERS:
-; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-; AI= input array AI[N,M] characterized by:
-;      --> N dimensions (indipendent input parameters)
-;      --> M elements (elements or data points used to train the
-;          algorithm). 
-;      The NxM values in AI are those assumed by the N input
-;      parameters for each of the M data point of the training set.
-;      For every data point in this array, the value of the
-;      indipendent variable B (the N+1 unknown parameter) is known.
-; BI= input vector BI[M] containing the values assumed by the
-;     M elements of the training sample along the (N+1)-th independent
-;     dimension (B).
-;     If there are more than just one independent variable that the
-;     user wants to estimate, then BI[M,O] is a MxO array. Here, "O"
-;     is the number of parameters that the user wants to estimate for
-;     the analysis data point (they are known for the data points
-;     in the training sample). When UMLAUT is used for classification
-;     purposes, then BI contains the labels associated with the
-;     training data points
-; AO= Input array AO[N,L] similar to AI, characterized by:
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+INPUT PARAMETERS:
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+AI= input array AI[N,M] characterized by:
+     --> N dimensions (indipendent input parameters)
+     --> M elements (elements or data points used to train the
+         algorithm). 
+     The NxM values in AI are those assumed by the N input
+     parameters for each of the M data point of the training set.
+     For every data point in this array, the value of the
+     indipendent variable B (the N+1 unknown parameter) is known.
+BI= input vector BI[M] containing the values assumed by the
+    M elements of the training sample along the (N+1)-th independent
+    dimension (B).
+    If there are more than just one independent variable that the
+    user wants to estimate, then BI[M,O] is a MxO array. Here, "O"
+    is the number of parameters that the user wants to estimate for
+    the analysis data point (they are known for the data points
+    in the training sample). When UMLAUT is used for classification
+    purposes, then BI contains the labels associated with the
+    training data points
+AO= Input array AO[N,L] similar to AI, characterized by:
 ;      --> N dimensions (number of indipendent input parameters)
 ;      --> L elements (number of analysis data points for which the
 ;          user wants to compute the indipendent variable B). 
