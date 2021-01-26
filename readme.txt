@@ -1,8 +1,8 @@
 # UMLAUT 1.0
 (IDL VERSION)
 Unsupervised Machine Learning Algorithm based on Unbiased Topology 
-By Ivano Baronchelli, May/2019 - April/2020
-See also: Baronchelli et al. (2020 in preparation)
+By Ivano Baronchelli, May/2019 - Jan/2021
+See also: Baronchelli et al. (2021 submitted)
 
 
 
@@ -167,9 +167,9 @@ scope= set this keyword to "regression" or to "classification".
         "fixed" and the AVERAGE keyword is not considered (the
         output is not an average).   
 GETPDF=setting this keyword, (/GETPDF), UMLAUT provides an output
-        PDF for the output parameter BO (See also the "X_PDF" and
-        "PDF" parameters. The PDF is not provided under the
-        scope="classification" configuration.
+        PDF for the output parameter BO (See also the "X_PDF", 
+        "PDF" and "PSM" parameters. The PDF is not provided under 
+        the scope="classification" configuration.
 def_x_PDF=setting this keyword (/def_x_PDF) "X_PDF" (see below) is
            not considered as an input. Instead, x_PDF will be
            overwritten by a default scale automatically selected by
