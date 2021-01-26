@@ -1,0 +1,30 @@
+List of examples.
+
+XXXXXXXXXXXXXXXXXXXXXXXXx
+- create_datesets.pro
+  Creates a training set (Set_training.txt), a test set (Set_Test.txt) and a file that includes the entries of both the two files (Set_complete.txt). Running this program, the user can create a new set of files (different entries but similar statistical properties). Alternaltively, the files already included in this folder can be used (whithout the need to re-run this program). 
+XXXXXXXXXXXXXXXXXXXXXXXXx
+- ex1.pro
+  How to estimate an output parameter from the mean of the closest data points in the ordinalized parameter space.
+  Simple example with few training and analysis data points.
+XXXXXXXXXXXXXXXXXXXXXXXXx
+- ex2.pro
+  An additional parameter, that does not correlate with the output, is added. Larger training and test sets are used. Output parameter estimated using a multi-dimensional linear fit (multivariate linear regression)
+XXXXXXXXXXXXXXXXXXXXXXXXx
+- ex2B.pro
+  Same test as in ex2.pro, but showing how the same test can be performed without the need to create independent training and test sets (without introducing overfitting). 
+XXXXXXXXXXXXXXXXXXXXXXXXx
+- ex3.pro
+  Shows how UMLAUT can be used in successive runs. At the beginning UMLAUT is trained over a training sample (slow phase), then it can be applied to a larger analysis dataset (fast run). In general, the precision of this method is lower, but the computational time is greatly reduced when large analysis data sets are considered.
+XXXXXXXXXXXXXXXXXXXXXXXXx
+- ex4.pro
+  This test shows how UMLAUT can provide an output PDF associated with the output parameter. The same PDF can be used to obtain an additional estimation of the output parameter itself, without relying on the default methods allowed by UMLAUT
+XXXXXXXXXXXXXXXXXXXXXXXXx
+- ex5.pro
+  In this example, UMLAUT is used to estimate multiple output parameters at the same time.
+XXXXXXXXXXXXXXXXXXXXXXXXx
+- ex6.pro
+  Example of classification process performed using UMLAUT
+XXXXXXXXXXXXXXXXXXXXXXXXx
+
+
