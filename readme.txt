@@ -1,8 +1,8 @@
 # UMLAUT 1.0
-
-
-[![DOI](https://zenodo.org/badge/323649071.svg)](https://zenodo.org/badge/latestdoi/323649071)
-
+--------------------------------------------------
+DOI: 323649071.svg
+https://zenodo.org/record/5772786#.YbN7tLvSLiQ
+https://zenodo.org/badge/323649071.svg
 
 (IDL VERSION)
 Unsupervised Machine Learning Algorithm based on Unbiased Topology 
