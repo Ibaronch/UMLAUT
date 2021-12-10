@@ -1,4 +1,4 @@
-# UMLAUT 1.0
+# UMLAUT 1.0 - Little snail
 --------------------------------------------------
 DOI: 323649071.svg
 https://zenodo.org/record/5772786#.YbN7tLvSLiQ
