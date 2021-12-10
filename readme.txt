@@ -2,8 +2,8 @@
 (IDL VERSION)
 Unsupervised Machine Learning Algorithm based on Unbiased Topology 
 By Ivano Baronchelli, May/2019 - Jan/2021
-See also: Baronchelli et al. (2021 submitted)
-
+Baronchelli I. et al. (2021) describes UMLAUT and one example of use.
+Additional simple examples are included in this distribution. 
 
 
 UMLAUT is a variant of the KNN (K-closest neighbor) algorithm.
